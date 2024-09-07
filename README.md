@@ -1,2 +1,2 @@
 # ansible-runner
-Container for running Ansible playbooks
+Custom container for running Ansible playbooks with Keyless dependencies installed.
