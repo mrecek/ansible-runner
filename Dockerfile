@@ -15,6 +15,7 @@ RUN pip3 install ansible
 RUN curl -o /tmp/akeyless https://akeyless-cli.s3.us-east-2.amazonaws.com/cli/latest/production/cli-linux-amd64
 RUN chmod +x /tmp/akeyless
 RUN /tmp/akeyless --init
+RUN mv /tmp/akeyless /usr/bin/akeyless
 
 # Install Hashicorp Vault CLI for use with Akeyless
 RUN pip install hvac
