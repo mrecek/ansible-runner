@@ -1,3 +1,8 @@
+##################################################################################
+# Container designed for executing Ansible playbooks. Includes the Akeyless CLI
+# and dependancies. Uses Ubuntu as the base image.
+##################################################################################
+
 FROM ubuntu:22.04
 LABEL org.opencontainers.image.title="ansible-runner"
 LABEL org.opencontainers.image.authors="Mark Recek"
